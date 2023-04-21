@@ -51,6 +51,15 @@ function updateCity(event) {
             <div class="am-pm">${cityTime.format("A")}</div>
           </div>
         </div>
+        <div>
+           <a
+        class="home-link"
+        href="https://github.com/luciadesperati/world-clock"
+        target="_blank"
+      >
+       < Go back
+      </a>
+          </div>
   `;
 }
 

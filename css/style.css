@@ -109,3 +109,16 @@ footer {
 .footer-link:hover {
   text-decoration: underline;
 }
+
+.home-link,
+.home-link:visited {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: #4c4d63;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}
