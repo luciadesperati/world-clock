@@ -54,8 +54,8 @@ function updateCity(event) {
         <div>
            <a
         class="home-link"
-        href="https://github.com/luciadesperati/world-clock"
-        target="_blank"
+        href="/"
+        target="#"
       >
        < Go back
       </a>
