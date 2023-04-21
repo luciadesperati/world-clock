@@ -1,3 +1,111 @@
+body {
+  background-color: #c9bbcf;
+}
+
+.container {
+  max-width: 600px;
+  display: block;
+  margin: 50px auto;
+  background-color: white;
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+
 h1 {
-  color: blueviolet;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 28px;
+  color: #363747;
+}
+
+select {
+  color: #898aa6;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  border: 1px solid #dddddd;
+  margin: 60px 0 40px 0;
+}
+
+select:focus,
+select:hover,
+select:active,
+select:visited {
+  border: 1px solid #898aa6;
+  color: #4c4d63;
+}
+
+select:focus-visible {
+  outline: none;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: #4c4d63;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  padding: 20px 0;
+  border-bottom: 1px dashed #c9bbcf;
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: #898aa6;
+  margin: 0;
+}
+
+.time {
+  display: flex;
+  align-items: baseline;
+  font-family: Helvetica, sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  color: #4c4d63;
+  margin: 5px 0;
+}
+
+.am-pm {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: #898aa6;
+  margin: 5px 0 5px 10px;
+}
+
+footer {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: #4c4d63;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.footer-link,
+.footer-link:visited {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: #4c4d63;
+  margin: 5px 0;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
 }
